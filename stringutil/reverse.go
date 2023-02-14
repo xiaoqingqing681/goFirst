@@ -1,5 +1,7 @@
 package stringutil
 
+import "fmt"
+
 // Reverse returns its argument string reversed rune-wise left to right.
 func Reverse(s string) string {
 	r := []rune(s)
@@ -7,4 +9,8 @@ func Reverse(s string) string {
 		r[i], r[j] = r[j], r[i]
 	}
 	return string(r)
+}
+
+func Print() {
+	fmt.Println("我终于会 hello 啦 哈哈")
 }
