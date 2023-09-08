@@ -14,3 +14,6 @@ func Reverse(s string) string {
 func Print() {
 	fmt.Println("我终于会 hello 啦 哈哈")
 }
+func SayHello() {
+	fmt.Println("Hello World! dwq")
+}
